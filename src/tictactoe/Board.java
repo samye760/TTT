@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Board {
 
-    private char[][] board;
+    private final char[][] board;
     private char turn;
     private final Scanner sc;
 
